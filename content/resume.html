@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>AJ Frantz</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <style>
+            html, body, main, section, header, ul, p, h1, h2, h3 {
+              font-family: 'Calibri', 'Open Sans', 'sans-serif';
+              font-size: 14px;
+              margin: 0; padding: 0;
+              display: block;
+            }
+            
+            a {
+              color: #C00000;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7B0796;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h1 {
+              text-transform: uppercase;
+              font-size:
+            }
+            
+            h2 {
+              text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3, .tenure {
+              font-size: 1.4em;
+              font-weight: 300;
+            }
+            
+            h3 {
+              margin-top: 0;
+              width: 66%;
+              float: left;
+            }
+            
+            table {
+              width: 100%;
+              text-transform: uppercase;
+              font-size: 1.3em;
+            }
+            
+            td:first-child {
+              text-align: right;
+              color: #A9A9A9;
+              letter-spacing: 5px;
+              font-weight: bold;
+            }
+            
+            td:last-child {
+              text-align: justify; /* HTML justification sucks, but in this case... */
+            }
+            
+            hr {
+              display: none;
+            }
+            
+            main {
+              padding: 15px;
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            section {
+              margin-top: 1em;
+            }
+            
+            section > div {
+              margin-top: 1em;
+              overflow: hidden; /* Clear floated children */
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            ul {
+              clear: both;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            p, li {
+              text-align: justify;
+            }
+            
+            .tenure {
+              float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+            }
+            
+            .keywords {
+              text-transform: none;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 1em;
+            }
+            
+            h1 {
+              float: left;
+            }
+            
+            h1, h2, .label {
+              font-size: 2.5em;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
+            }
+            
+            #contact {
+             clear: both;
+             float: right;
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 10px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #DADADA;
+            }
+            
+            .label {
+              float: right;
+              color: #DADADA;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                 <h1>AJ <span style="color: #C00000;">Frantz</span></h1>
+                <span class="label">Embedded Software Expert</span>
+                <p id="contact">
+                  <span class="email"><a href="mailto:aj@ajfrantz.com">aj@ajfrantz.com</a>
+                  </span>
+                  <span class="phone">1.720.837.2689</span>
+                  <span class="website"><a href="https://www.ajfrantz.com/">https://www.ajfrantz.com/</a></a>
+                  </span>
+                </p>
+            </header>
+            <hr>
+            <section id="skills">
+                <header style="clear: both;">
+                    <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 30%;">Main Languages</td>
+                            <td class="keywords">C++ (98/11/14/17) | C | Python | Rust</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%;">Architectures</td>
+                            <td class="keywords">ARM (Cortex-M and -R) | MSP430 | X86[_64] | AVR | PIC</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%;">Toolchains</td>
+                            <td class="keywords">GCC | Clang/LLVM | ARM DS-5 | Visual Studio | MinGW</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%;">Recent Interests</td>
+                            <td class="keywords">Elixir | Go | Typescript | Javascript</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>employment</h2>
+
+                </header>
+                <div>
+                    <h3><em>Manager, Platform and Integration</em>,
+                        <a href="https://www.tri.global/">Toyota Research Institute</a>
+                    </h3>
+                    <span class="tenure">September 2017 — October 2019</span>
+                    <p>
+                        <p>Lead of twelve-person team responsible for delivering an autonomous
+                           vehicle research platform and architecture advice for research teams.</p>
+                    </p>
+                    <ul>
+                        <li>Release manager / maintainer for high visibility demos, responsible for
+                            distilling functional product from research codebase</li>
+                        <li>Lead multiple major subsystem redesigns to increase researcher
+                            productivity, improve performance, and ensure reliability</li>
+                        <li>Technical expert implementing algorithm optimizations, triaging behavioral
+                            problems, and ensuring system-level correctness</li>
+                        <li>Handled people management, professional development, mentorship, and
+                            work assignments for the team</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><em>Senior Software Engineer</em>,
+                        <a href="http://www.spacex.com/">SpaceX</a>
+                    </h3>
+                    <span class="tenure">December 2013 — August 2017</span>
+                    <p>
+                        <p>Hired as sole engineer on a single-project codebase and expanded it into
+                            a seven-person team responsible for all vehicle microcontrollers.</p>
+                    </p>
+                    <ul>
+                        <li>Served as technical lead for the team, including requirements analysis,
+                            cross-team coordination, and system-level design roles</li>
+                        <li>Authored firmware for many projects including sensors, motor controllers,
+                            flight termination system, and fairing recovery prototype</li>
+                        <li>Provided direct supervision to team members to ensure leverage across
+                            projects, flight vehicles and architectures</li>
+                        <li>Mentor to numerous interns, new graduates and experienced engineers taking
+                            on their first embedded roles</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Senior Engineer</em>,
+              <a href="https://www.qualcomm.com">Qualcomm, Inc.</a>
+              </h3>
+ <span class="tenure">June 2008 — November 2013</span>
+
+                    <p>
+                        <p>Engineer on numerous deeply embedded power management projects, promoted
+                            into leading role on SoC architecture team.</p>
+                    </p>
+                    <ul>
+                        <li>Co-directed design of next-generation hardware accelerators for SoC resource
+                            control resulting in 10-100x reduction in energy consumption for business
+                            critical use cases</li>
+                        <li>Contributed as inventor to more than 10 filed US patents</li>
+                        <li>Served as lead developer over two generations of firmware for an internal
+                            power control processor</li>
+                        <li>Implemented initial bootstrapping, RTOS services, inter-processor communication,
+                            power management, and several low level drivers</li>
+                        <li>Developed algorithms including soft real-time scheduler for resource state
+                            transitions, workload estimation and prediction, DVFS strategy for real-time
+                            systems</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Contractor (initially College Co-op)</em>,
+              <a href="http://www.toyota.com/">Toyota Technical Center</a>
+              </h3>
+ <span class="tenure">September 2006 — August 2007</span>
+
+                    <p>
+                        <p>Responsible for hardware, firmware and software development of cooperative
+                            safety systems research test bed.</p>
+                    </p>
+                    <ul>
+                        <li>Coordinated with researchers to implement several proof of concept applications
+                            for real time multi-agent collision detection and avoidance</li>
+                        <li>Ported application-to-vehicle interface from Python to C++ while maintaining
+                            backward compatibility to Python applications</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                     <h2>education</h2>
+
+                </header>
+                <div>
+                     <h3>B.S.E. Computer Engineering, University of Michigan College of Engineering</h3>
+ <span class="tenure">2004 — 2008</span>
+
+                </div>
+            </section>
+            <hr>
+            <section id="recognition">
+                <header> <span class="fa fa-lg fa-trophy"></span> 
+                     <h2>recognition</h2>
+
+                </header>
+                <div>
+                     <h3><em>Cum laude</em>, University of Michigan College of Engineering</h3>
+ <span class="tenure">2008</span>
+
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,8 @@
+baseURL = "https://www.ajfrantz.com/"
+languageCode = "en-us"
+title = "AJ Frantz's Blog"
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+[params]
+author = "AJ Frantz"
+description = "Blog of the things I hack on in my spare time."
