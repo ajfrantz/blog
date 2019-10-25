@@ -36,7 +36,7 @@ the years.
 I've spent most of my professional career using C++ to build highly-reliable
 real-time embedded systems.  Unfortunately, the market for such things being
 what it is, I cannot share almost any of that code (and no longer have it in my
-posession even if I could).
+possession even if I could).
 
 I mostly try to write things in Rust in my spare time, but that doesn't mean I
 don't still dabble here and there.
@@ -59,7 +59,7 @@ allocators work was well worth the time invested.
 Not really a "project" as much as a thought experiment, I was trolling the
 internet one night and got roped into a classic nerd-trap: [optimizing
 FizzBuzz](https://news.ycombinator.com/item?id=8832472).  I think it's
-worthwhile to occaisonally explore even the seemingly "absurd" limits of your
+worthwhile to occasionally explore even the seemingly "absurd" limits of your
 tools, as it helps build insight into how they're best wielded--even when
 you're not using them for silly things.
 
