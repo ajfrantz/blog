@@ -11,7 +11,7 @@ kick-start some projects which I can share more publicly.
 
 A second motivating factor is that most of the software I've developed
 professionally has been in C++.  That language is powerful and continues to
-evolved, and with sufficient experience it's obviously possible to make it do
+evolve, and with sufficient experience it's obviously possible to make it do
 impressive and useful things.  That said, I've recently become somewhat
 enamored with [Rust](https://www.rust-lang.org).  It contains many _even more_
 modern niceties, and promises to contain many fewer footguns.
