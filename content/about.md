@@ -11,7 +11,7 @@ resume](/resume/) interesting, you should probably contact
 me at [aj@ajfrantz.com](mailto:aj@ajfrantz.com).
 
 Most of my adult career has been spent working on proprietary products, but I
-do hack on [side projects](/projects/) on occaison.
+do hack on [side projects](/projects/) on occasion.
 
 On the internet I generally go by the monikers of either `ajfrantz` or
 `eckzow`.
