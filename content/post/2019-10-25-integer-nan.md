@@ -4,10 +4,8 @@ title = "Integer NaN in Rust"
 author = "AJ Frantz"
 +++
 
-Zygote has been kicking along in the background--it can (slowly, open-loop)
-spin a motor now!--and I'll have a bunch to say on that soon, but for now the
-experiment is far from over.  Today I want to just talk about one cool little
-thing about Rust that I learned along the way.
+Today I want to talk about one cool little thing about Rust that I learned
+recently.
 
 Rust [has a](https://doc.rust-lang.org/std/option/) widely used `Option` type
 with [great language
