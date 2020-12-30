@@ -11,8 +11,7 @@ for learning / enjoyment purposes.
 I've been following the [Rust](http://www.rust-lang.org/) programming language
 since its early days.  I think there's a lot of things it gets right, and it
 feels very much like a modernized C++ to me.  I don't have a ton of projects in
-this section _yet_, but I intend to dive deeper into this language in the near
-future.
+a state I feel comfortable sharing publicly right now, but here's a few:
 
 #### [Advent of Code 2018](https://github.com/ajfrantz/advent2018)
 
